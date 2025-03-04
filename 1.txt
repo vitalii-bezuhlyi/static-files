@@ -1,0 +1,76 @@
+Hello! I am writing documentation based on the provided code. It should look like this (you can use it as a template):
+
+## Actions
+
+### Landing & Site Pages
+**Note:** The actions for landing and site pages are the same, but they have separate actions for each.
+
+- **Site Page**: A site page is a more general and versatile page on a HubSpot CMS website. It can contain various types of content and is part of your site's overall navigation and structure.
+- **Landing Page**: A landing page in HubSpot CMS is a standalone page typically designed for a specific marketing campaign, with a clear call-to-action (CTA) to capture leads.
+
+#### Get a Landing/Site Page
+Retrieve information from a specific page on your website by selecting it from a dynamic drop-down list as an input value.
+
+#### Search Landing/Site Pages
+Searches for landing or site pages matching certain criteria. One of these criteria is "Not translated in language," which you can use to filter pages that are missing translations.
+
+#### Get a Landing/Site Page as an HTML File
+Get webpage details and an HTML file of its content for easy translation and integration while preserving formatting and layout.
+
+#### Translate a Landing/Site Page from an HTML File
+Create a new translation for a landing or site page based on an HTML file input. This enables seamless integration of externally translated content back into the website while maintaining the HTML structure.
+**Note:** If you are using this action with a landing or site page that has no translations yet, you need to provide the primary language.
+
+#### Schedule a Landing/Site Page for Publishing
+Automate webpage publishing to release translated content at the right time for a better user experience.
+
+### Blog Posts
+#### Search Blog Posts
+Searches for blog posts matching certain criteria. One of these criteria is "Not translated in language," which you can use to filter posts that are missing translations.
+
+#### Get Blog Post
+Retrieve blog post information.
+
+#### Create Blog Post
+Create a new blog post. This action allows for the generation of fresh, localized content to engage global audiences and expand the reach of your blog or website, fostering international growth and user engagement.
+
+#### Delete Blog Post
+Delete a blog post.
+
+#### Get Blog Post as an HTML File
+Retrieve a blog post as an HTML file.
+
+#### Translate Blog Post from an HTML File
+Translate a blog post from an HTML file.
+
+#### Update Blog Post
+Update blog post information.
+
+#### Schedule a Blog Post for Publishing
+Automate blog post publishing to release translated content at the right time for a better user experience.
+
+### Marketing Emails
+**Note:** The HubSpot API marks these endpoints in the beta stage.
+
+#### Search Marketing Emails
+Searches for marketing emails based on certain criteria.
+
+#### Create Marketing Email
+Create a new marketing email.
+
+#### Get Marketing Email Content as an HTML File
+Retrieve a marketing email as an HTML file for convenient translation.
+
+#### Update Marketing Email Content from an HTML File
+Update a marketing email's content from a (translated) HTML file.
+
+## Events
+- **On Blog Posts Created or Updated**: Triggers when a blog post is created or updated.
+- **On Landing Pages Created or Updated**: Triggers when a landing page is created or updated.
+- **On Site Pages Created or Updated**: Triggers when a site page is created or updated.
+
+These events work on a polling mechanism, so you won't be immediately notified about the changes. You can configure the polling interval to range from 5 minutes to 7 days.
+
+This documentation is designed for end users who will interact with the actions and events through a user interface, rather than directly with the methods themselves. The explanations are intended to be clear and user-friendly to ensure easy understanding and use.
+
+
