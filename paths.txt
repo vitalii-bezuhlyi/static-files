@@ -1,3 +1,0 @@
-secapps/control/not-found.json
-secapps/control/onboarding.json
-secapps/control/organization-profile.json
